@@ -12,4 +12,20 @@
 - [ ] Run continous test 
 
 ## To Run This App [Instructions]
-- coming soon ...
+### Tools
+- You will firstly need to set up your working environment like installing things neccesary to run this web app
+ 1. Download Node.js & npm - Download/Install [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+ 2. Donwload Fireabse - Download/Install [here](https://www.npmjs.com/package/firebase)
+
+### Get the App & Run It
+
+```bash 
+  # Clone the repository
+  git clone https://github.com/legacy-96/signin.git
+  cd /signin
+```
+
+```bash 
+  # Start the app
+  npm start
+```
