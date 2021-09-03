@@ -29,6 +29,11 @@
 ```
 
 ```bash 
+  # Insall all dependecies, usually node_modules won't be available because of .gitignore so this is neccesary
+  npm install
+```
+
+```bash 
   # Start the app
   npm start
 ```
