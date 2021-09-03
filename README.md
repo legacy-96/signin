@@ -29,7 +29,7 @@
 ```
 
 ```bash 
-  # Insall all dependecies, usually node_modules won't be available because of .gitignore so this is neccesary
+  # Insall all dependecies,node_modules won't be available because of .gitignore
   npm install
 ```
 
