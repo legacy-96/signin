@@ -11,7 +11,10 @@
 - [ ] Implement the designs with functionality
 - [ ] Run continous test 
 
-## To Run This App [Instructions]
+## Web App Wireframe & Designs
+ coming soon . . .
+
+## To Run This App [Instructions below]
 ### Tools
 - You will firstly need to set up your working environment like installing things neccesary to run this web app
  1. Download Node.js & npm - Download/Install [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -29,3 +32,4 @@
   # Start the app
   npm start
 ```
+This will then open the development server and open the page via web browser or through your IDE
