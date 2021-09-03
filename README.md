@@ -4,6 +4,7 @@
 - Designing and implementing a web App for an online library system.
 
 ## Goals
+- [x] Make installation set so that all team members can have the app up and running
 - [ ] Rename the web app name 
 - [x] Create a sign-in functionality & connect it with firebase
 - [ ] Create API structure & initiate data values
