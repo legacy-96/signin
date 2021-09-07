@@ -2,7 +2,8 @@
 import React , {useState, useEffect} from 'react';
 import fire from './fire';
 import Login from './Login';
-import Hero from './Hero';
+//import Hero from './Hero';
+import Header from './Header';
 import './App.css';
 
 const App = () => {
@@ -82,7 +83,12 @@ const App = () => {
   return (
     <div className = 'App'>
       {user ? (
-        <Hero handleLogout={handleLogout}/>
+        //<Hero handleLogout={handleLogout}/>
+        <div>
+          <Header handleLogout={handleLogout} />
+          
+        </div>
+
       ): (
         <Login 
       email={email} 
@@ -96,6 +102,7 @@ const App = () => {
       emailError={emailError}
       passwordError={passwordError}/>
       )}
+      
     </div>
   );
 

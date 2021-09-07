@@ -1,13 +1,21 @@
 import React from 'react';
+import Books from './Books';
 
 const Hero = ({handleLogout}) =>{
     return (
-        <section className='hero'>
+        <div className='hero'>
             <nav>
                 <h2>Team 0X64 Library</h2>
-                <button onClick={handleLogout}>Logout</button>
+                <div className='left_side'>
+                    <input className='books_search' placeholder='search for books'></input>
+                    <button onClick={handleLogout}>Logout</button>
+                </div>
             </nav>
-        </section>
+            <div className='book_list'>
+               <Books />
+            </div>
+        </div>
+
     )
 }
 
