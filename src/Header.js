@@ -7,10 +7,7 @@ function Header({handleLogout}) {
   return (
     <div className="header">
       
-      <img
-          className="header__logo"
-          src='./images/logo.jpeg'
-        />
+      <h1>Team 0X64</h1>
       
 
       <div className="header__search">
