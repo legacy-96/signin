@@ -1,0 +1,25 @@
+
+.heading{
+    text-align: center;
+    padding: 20px;
+}
+.grid_container{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 50px;
+    padding: 10px; 
+}
+.admin_side, .user_side{
+    background-color: lightgrey;
+    padding: 50px;
+    color: white;
+}
+
+.admin_side:hover, .user_side:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+

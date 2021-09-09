@@ -10,11 +10,10 @@ button {
   outline: none;
   width: 100%;
   padding: 10px 0;
-  margin: 5px;
   color: #fff;
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 1px;
-  background: black;
+  background: #603bbb;;
   cursor: pointer;
 }
 
@@ -117,28 +116,8 @@ button {
 }
 
 .hero nav button {
-  width: 86px;
-  padding: 8px 0;
-  background: #3a2b58;
-  border-radius: 50px;
+  width: 100px;
+  padding: 15px 0;
+  background: #603bbb;
 }
 
-.left_side{
-  display: flex;
-  color: transparent;
-}
-
-.books_search{
-  background-color: transparent;
-  border-radius: 50px;
-  padding: 5px;
-  margin: 5px;
-}
-
-.books_search:focus{
-  outline: none;
-}
-
-.hero {
-  justify-content: center;
-}
