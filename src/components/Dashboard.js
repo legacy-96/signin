@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Redirect } from "react-router-dom";
-import { AuthContext } from "./Auth";
-import firebaseConfig from "./fire.js";
+import { AuthContext } from "../Auth";
+import firebaseConfig from "../fire.js";
 
 const Dashboard = () => {
   const { currentUser } = useContext(AuthContext);
