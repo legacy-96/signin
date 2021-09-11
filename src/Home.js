@@ -6,7 +6,7 @@ const Home = () => {
   const { currentUser } = useContext(AuthContext);
   return (
     <>    
-      <h1 className='heading'>Team 0X64 Library</h1>
+      <h1 className='heading'>0X64 Library</h1>
       <div className='grid_container'>
           <div className='admin_side'>
               Login As Admin

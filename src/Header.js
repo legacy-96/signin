@@ -7,7 +7,7 @@ function Header({handleLogout}) {
   return (
     <div className="header">
       
-      <h1>Team 0X64</h1>
+      <h1>0X64 library</h1>
       
 
       <div className="header__search">
