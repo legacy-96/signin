@@ -5,15 +5,15 @@
 
 ## Goals
 - [x] Make installation set so that all team members can have the app up and running
-- [ ] Rename the web app name 
+- [x] Rename the web app name 
 - [x] Create a sign-in functionality & connect it with firebase
-- [ ] Create API structure & initiate data values
-- [ ] Design the online library (design tools)
-- [ ] Implement the designs with functionality
-- [ ] Run continous test 
+- [x] Create API structure & initiate data values
+- [x] Design the online library (design tools)
+- [x] Implement the designs with functionality
+- [x] Run continous test 
 
 ## Web App Wireframe & Designs
- coming soon . . .
+Hosted somewhere.
 
 ## To Run This App [Instructions below]
 ### Tools
